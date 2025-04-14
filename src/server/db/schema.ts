@@ -18,6 +18,8 @@ export const profiles = sqliteTable('profiles', {
   firstName: text('first_name').notNull(),
   lastName: text('last_name').notNull(),
   email: text('email'),
+  // Add the hashed PIN field - we'll store it hashed for security
+  pinHash: text('pin_hash').notNull(),
   status: text('status', { enum: ['active', 'inactive', 'suspended'] }).default('active'),
   lastLogin: integer('last_login', { mode: 'timestamp' }),
   createdAt: integer('created_at', { mode: 'timestamp' }).default(sql`(strftime('%s', 'now'))`),

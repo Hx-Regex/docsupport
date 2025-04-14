@@ -38,6 +38,6 @@
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts"
-  ],
+, "src/server/api/routers/post.ts.old"  ],
   "exclude": ["node_modules"]
 }
