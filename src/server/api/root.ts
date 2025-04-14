@@ -1,7 +1,7 @@
 // import { postRouter } from "@/server/api/routers/post";
 import { createCallerFactory, createTRPCRouter } from "@/server/api/trpc";
 import {  clinicRouter } from "./routers/clinic";
-import { profileRotuer } from "./routers/profile";
+import { profileRouter } from "./routers/profile";
 import { authRouter } from "./routers/auth";
 
 /**
