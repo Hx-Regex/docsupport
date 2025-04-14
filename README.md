@@ -18,6 +18,7 @@ CabiNet helps doctors and their assistants with:
 - [SQLite](https://www.sqlite.org/) - Local database
 - [Supabase](https://supabase.com) - Cloud database
 - [Tailwind CSS](https://tailwindcss.com) - Styling
+- [TRPC] 
 
 ## Features
 
